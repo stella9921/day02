@@ -44,7 +44,13 @@ day02폴더는 git repository
   커밋하면서 add 하는 옵션
   -a 옵션
   git commit -a 
+  단, 파일이 tracked 상태일때만 가능
+--> untracked 라면 사용 불가
+--> 새롭게 만들어진 파일이라면 사용 불가
 
+두 가지를 동싱 
+-am
+git commit -am '메시지'
 
                                   
 
