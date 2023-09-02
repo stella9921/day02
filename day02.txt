@@ -15,7 +15,15 @@ day02폴더는 git repository
 
  day02.txt를 수정
  --> day02.txt가 modified상태가 된다
- (tracked 상태){unstage상태}                               
+ (tracked 상태){unstaged상태}                   
+
+ day02.txt 수정사항을 stage 에  올려
+ git add day02.txt
+
+
+ 영구저장
+ (stage 에 올라가 있는 임시저장된 파일들만 영구저장이 된다)   
+          
 
                                   
 
