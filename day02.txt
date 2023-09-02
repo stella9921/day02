@@ -52,6 +52,17 @@ day02폴더는 git repository
 -am
 git commit -am '메시지'
 
+초기 설정(이건 처음에만 한번 하면됌 자기 노트북일 경우)
+git init으로 깃 레포지터리로 만든다
+git config --global user.name "사용자이름"
+git config --global user.email "이메일주소"
+으로 계정을 설정한다
+
+파일이 수정된다
+-->git add .
+-->git commit -m '메시지'
+
+
                                   
 
 
